@@ -115,6 +115,9 @@ nav ul li .dropdown-menu {
 	background-color: transparent;
 }
 
+nav ul li .dropdown-menu a:hover {
+	background-color: #0492c2ff;
+}
 
 .bg-light {
 	background-color: rgba(0,0,0,0) !important;
