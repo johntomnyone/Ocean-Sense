@@ -35,7 +35,7 @@
 	body {
 		background: url('/static/imgs/bg-video-poster.png');
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto;
 	}
 }
 
@@ -114,6 +114,7 @@ nav ul li a {
 nav ul li .dropdown-menu {
 	background-color: transparent;
 }
+
 
 .bg-light {
 	background-color: rgba(0,0,0,0) !important;
