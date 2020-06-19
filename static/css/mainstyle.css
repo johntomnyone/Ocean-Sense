@@ -111,6 +111,10 @@ nav ul li a {
 	color: #fff !important;
 }
 
+nav ul li .dropdown-menu {
+	background-color: transparent;
+}
+
 .bg-light {
 	background-color: rgba(0,0,0,0) !important;
 	color: #fff !important;
