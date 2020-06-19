@@ -1,0 +1,16 @@
+{% extends "admin/base.html" %}
+
+{% load static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+        <img src="{% static 'imgs/holachats-just-logo.png' %}" height="40px" /><span style="font-weight: bold; padding-left: 20px;"> Ocean Sense 
+    </a>
+    <a style="padding-left: 40px; color: #fff" href="{% url 'index' %}"><img src="{% static 'imgs/home-solid.svg' %}" style="width: 30px"> Back to homepage</a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
